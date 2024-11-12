@@ -25,7 +25,7 @@ public class CatchPokemonTest {
 
     @Test
     public void testLargeGridWithLooping() {
-        String moves = "NESWNESWNESWNESW"; // Testando várias voltas na mesma área
+        String moves = "NESONESONESONESO"; // Testando várias voltas na mesma área
         assertEquals(4, CatchPokemon.countCapturedPokemons(moves));
     }
 
@@ -33,7 +33,7 @@ public class CatchPokemonTest {
     public void testLongPath() {
         StringBuilder moves = new StringBuilder();
         for (int i = 0; i < 1000; i++) {
-            moves.append("NESW");
+            moves.append("NESO");
         }
         assertEquals(4, CatchPokemon.countCapturedPokemons(moves.toString()));
     }

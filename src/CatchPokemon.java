@@ -36,6 +36,7 @@ public class CatchPokemon {
                 case 'S': y--; break;
                 case 'E': x++; break;
                 case 'O': x--; break;
+                default: throw new IllegalArgumentException("Movimento inválido: " + move);
             }
             // Constrói a posição atual em formato string
             String position = x + "," + y;
