@@ -4,10 +4,15 @@ import java.util.Set;
 
 public class CatchPokemon {
     public static void main(String[] args) {
-        // Lê a sequência de movimentos da entrada padrão
-        Scanner scanner = new Scanner(System.in);
-        String moves = scanner.nextLine().trim();
-        scanner.close();
+        String moves;
+        if (args.length > 0) {
+            moves = args[0];  // Usar o primeiro argumento passado
+        } else {
+            // Fallback para leitura do stdin se nenhum argumento for passado
+            Scanner scanner = new Scanner(System.in);
+            moves = scanner.nextLine().trim();
+            scanner.close();
+        }
 
         // Calcula o número de pokémons capturados
         int capturedPokemons = countCapturedPokemons(moves);
