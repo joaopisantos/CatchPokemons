@@ -14,6 +14,12 @@ public class CatchPokemon {
         System.out.println(capturedPokemons);
     }
 
+    /**
+     * Conta o número de pokémons capturados com base na sequência de movimentos.
+     *
+     * @param moves sequência de movimentos de Ash (N, S, E, O).
+     * @return o número de pokémons capturados.
+     */
     public static int countCapturedPokemons(String moves) {
         // Define a posição inicial do Ash
         int x = 0, y = 0;
