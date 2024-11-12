@@ -1,11 +1,11 @@
-# Catch Pokemon
+# Catch Pokemons
 Captura de pokémons numa grelha bidimensional infinita.
 
 ## Descrição
 Ash captura pokémons enquanto move-se em direções específicas (N, S, E, O). 
 Este programa conta o número de pokémons capturados numa sequência de movimentos.
 
-## Como Executar Catch Pokemon
+## Como Executar Catch Pokemons
 - Compile e execute no IntelliJ com `Run > Run 'CatchPokemon'`.
 - Insira uma sequência de movimentos em `Run > Edit Configurations > Introduzir a sequencia de movimentos que 
 quiser no campo Program Arguments` para simular a entrada.
