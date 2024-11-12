@@ -1,4 +1,4 @@
-# Pokemon Catcher
+# Catch Pokemon
 Solução para o problema de captura de pokémons numa grelha bidimensional infinita.
 
 ## Descrição
